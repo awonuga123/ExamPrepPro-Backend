@@ -20,7 +20,7 @@ from . import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('letsquiz_api/', include("LetsQuiz_Api.urls")),
+    path('ExamPrepPro_api/', include("ExamPrepPro_Api.urls")),
     re_path(r'^static/(?P<path>.*)$', serve,
             {'document_root': settings.STATIC_ROOT}),
 ]

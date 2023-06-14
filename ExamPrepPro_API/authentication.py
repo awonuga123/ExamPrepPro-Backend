@@ -51,3 +51,4 @@ class Authentication(BaseAuthentication):
         if datetime.now().timestamp() > exp:
             return None
         return decoded_data
+    

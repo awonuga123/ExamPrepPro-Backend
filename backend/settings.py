@@ -49,7 +49,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://ayotech-py.github.io",
+    "https://awonuga123.github.io",
     "http://localhost:8080",
     "http://0.0.0.0:8000"
 ]
@@ -67,7 +67,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'LetsQuiz_Api',
+    'ExamPrepPro_Api',
     'rest_framework',
     'corsheaders',
 ]
@@ -110,10 +110,10 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'LetsQuiz',
+        'NAME': 'ExamPrepPro',
         'HOST': 'localhost',
-        'USER':  'ayotech',
-        'PASSWORD': 'mysqlpassword',
+        'USER':  'awonuga123',
+        'PASSWORD': 'password',
     }
 }
 
